@@ -1,0 +1,89 @@
+.Back {
+  background-image: radial-gradient( circle 997px at 5.8% 11.8%,  rgba(0,201,235,1) 0%, rgba(145,0,228,1) 90% );
+  min-height: 100vh;
+
+}
+
+.container{
+  display: flex;
+  width: 55%;
+  margin: auto;
+  justify-content: space-around;
+  padding-top: 204px;
+ 
+  
+}
+
+.inputs{
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  
+}
+input{
+  margin-top: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.card{
+  width: 390px ;
+  height: 200px ;
+  background-image: linear-gradient(25deg, #0f509e, #1399cd);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+
+  background-image: url('http://i.epvpimg.com/tNlneab.png'), url('http://i.epvpimg.com/nBPWbab.png');
+  background-size: 25%;
+  background-position: left 10% , 90% 80% ;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  
+}
+
+h6 , h4 , h3 , h2 {
+  color: black;
+  
+
+}
+h6{
+  position: absolute;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1em;
+    margin: 90px 0 0 15px;
+}
+
+h4{
+  position: absolute;
+  margin: 145px 0px 0px 200px;
+  font-size: 1.1em;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+  position: absolute;
+  margin: 160px 0px 0px 25px;
+  font-size: 1.1em;
+  font-weight: 500;
+  font-family: Times;
+}
+
+h2{
+position: absolute;
+font-size: 1.1em;
+font-weight: 500;
+font-family: Times;
+margin: 8px 0px 0 240px;
+
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
